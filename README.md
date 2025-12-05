@@ -4,11 +4,6 @@
 ![](foto/fondoxd.jpg)
 
 
-
-
-
-
-
 # Descripción general del proyecto.
 esta es una  api hecho co n Python FastAPI Postgres sirve para manejar clientes, productos y pedidos Permite crear, ver, actualizar y borrar datos de manera rápida
 
@@ -35,6 +30,7 @@ esta es una  api hecho co n Python FastAPI Postgres sirve para manejar clientes,
 
 La estructura real del proyecto
 
+```
 FASTAPI-IA/
 │
 ├── foto/
@@ -60,45 +56,32 @@ FASTAPI-IA/
 ├── README.md
 ├── requirements.txt
 └── vercel.json
+```
 
 
 ## Ejemplos de uso
 
- Crear un cliente
+```
+Crear un cliente
 {
-  "nombre": "Juan",
-  "apellido": "Pérez",
-  "email": "juanperez@gmail.com",
+  "nombre": "axel",
+  "apellido": "aguiñar",
+  "email": "judw34dsf@gmail.com",
   "telefono": "2215554444",
   "direccion": "Calle 10 Nº 123"
 }
-
- Crear un producto
+Crear un producto
 {
   "nombre": "Mouse Gamer",
   "marca": "Redragon",
-  "precio": 19999.99,
+  "precio": 199993435344359,
   "cantidad": 5
 }
-
- Crear un pedido
+Crear un pedido
 {
   "cliente_id": 1,
   "producto_id": 2,
   "cantidad": 1,
   "estado": "pendiente"
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```

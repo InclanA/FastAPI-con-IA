@@ -1,4 +1,3 @@
-#models/models.py
 from pydantic import BaseModel
 
 class cliente(BaseModel):

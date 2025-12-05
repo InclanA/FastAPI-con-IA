@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 SUPABASE_CONN = os.getenv("SUPABASE_CONN")
 
-def get_cursor():
+def cursorxd():
     if not SUPABASE_CONN:
         raise ValueError("SUPABASE_CONN no encontrada")
 

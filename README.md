@@ -31,6 +31,63 @@ esta es una  api hecho co n Python FastAPI Postgres sirve para manejar clientes,
 **PUT /pedidos/{id}**  Actualizar un pedido  
 **DELETE /pedidos/{id}** Eliminar un pedido  
 
+## Estructura del proyecto
+
+La estructura real del proyecto
+
+FASTAPI-IA/
+│
+├── foto/
+│   └── foto.png
+│
+├── managers/
+│   ├── cliente_manager.py
+│   ├── conexion.py
+│   ├── pedido_manager.py
+│   └── producto_manager.py
+│
+├── models/
+│   └── models.py
+│
+├── routes/
+│   ├── cliente_router.py
+│   ├── pedido_router.py
+│   └── producto_router.py
+│
+├── .env
+├── .gitignore
+├── main.py
+├── README.md
+├── requirements.txt
+└── vercel.json
+
+
+## Ejemplos de uso
+
+ Crear un cliente
+{
+  "nombre": "Juan",
+  "apellido": "Pérez",
+  "email": "juanperez@gmail.com",
+  "telefono": "2215554444",
+  "direccion": "Calle 10 Nº 123"
+}
+
+ Crear un producto
+{
+  "nombre": "Mouse Gamer",
+  "marca": "Redragon",
+  "precio": 19999.99,
+  "cantidad": 5
+}
+
+ Crear un pedido
+{
+  "cliente_id": 1,
+  "producto_id": 2,
+  "cantidad": 1,
+  "estado": "pendiente"
+}
 
 
 
@@ -45,17 +102,3 @@ esta es una  api hecho co n Python FastAPI Postgres sirve para manejar clientes,
 
 
 
-
-
-
-
-
-
-
-## cosas que use
-* Python 
-* FastAPI
-* Psycopg (para conectar a PostgreSQL)
-*  Supabase (mi base de datos)
-*  Uvicorn (para correr la API)
- 

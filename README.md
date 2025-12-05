@@ -28,7 +28,7 @@ esta es una  api hecho co n Python FastAPI Postgres sirve para manejar clientes,
 
 ## Estructura del proyecto
 
-La estructura real del proyecto
+La estructura 
 
 ```
 FASTAPI-IA/
